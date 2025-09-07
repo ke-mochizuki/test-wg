@@ -1,0 +1,72 @@
+/**
+ *  Westgate Co., Ltd. Base Style
+ **/
+* {
+	margin: 0;
+	padding: 0;
+	line-height: 165%;
+	font-size: medium;
+	/* Google Fonts */
+	font-family: "Zen Kaku Gothic Antique", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* Body */
+body {
+	display: flex;
+	justify-content: center;
+}
+div#container {
+	max-width: 850px;
+}
+
+/* Header */
+div#header {
+	text-align: center;
+}
+div#header h1 {
+	width: 100%;
+	display: inline-block;
+}
+div#header h1 img {
+	width: 100%;
+	height: auto;
+}
+div#header ul.menu li img:hover {
+	opacity: 0.65;
+}
+
+/* Content */
+div#content {
+	padding: 1em;
+}
+
+/* Footer */
+div#footer {
+	text-align: center;
+}
+div#footer ul.menu li {
+	padding: 0 1em;
+}
+
+/* Common */
+p {
+	padding: 0.3em 0;
+}
+strong {
+	font-weight: 700;
+}
+
+/* Class */
+ul.menu li {
+	display: inline-block;
+}
+
+/*** Media Query ***/
+/* Mobile Phone */
+@media screen and (max-width: 480px) {
+	div#container {
+		max-width: 480px;
+	}
+}
